@@ -1,0 +1,104 @@
+body{
+    background-color: #eeeeee;
+    font-family: "Red Hat Display", sans-serif;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+}
+
+.container{
+    background-color: #1f2949;
+    color: #0a0a0ae0;
+    max-width: 330px;   
+    text-align: center;
+    background-image: url(../imagens/clima-fundo.png);
+    background-size: cover;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 02) 0 10px 50px;
+}
+
+.busca{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.busca input{
+    background-color: #0a1435a4;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    color: #fae9e9;
+    font-size: 16px;
+    font-weight: 700;
+    opacity: 0.9;
+}
+
+.busca .btn-busca{
+    background-color: #0a1435a4;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    opacity: 0.9;
+}
+
+.busca .lupa{
+    width: 30px;
+    padding: 6px;
+    opacity: 0.9;
+}
+
+.informacao-principal{
+    margin: 30px;
+}
+
+.informacao-principal h1{
+    font-size: 18px;
+}
+
+.informacao-principal .temperatura{
+    font-size: 68px;
+    margin: 20px 0;
+}
+
+.informacao-principal .condicao{
+    font-size: 20px;
+}
+
+.informacao-secundaria {
+    background-color: hsla(0, 0%, 100%, 0.719);
+    color: #000000;
+    padding: 20px 30px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.informacao-secundaria .humidade,
+.informacao-secundaria .velocidade-do-vento{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.desenvolvido h1{
+    background-color: #ffffff77;
+    margin: 15px 0px 1px 0px;
+    padding: 3px;
+    font-size: 14px;
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.desenvolvido .paragrafo{
+    background-color: #ffffff77;
+    margin: 1px 0px 5px 0px;
+    padding: 3px;
+    font-size: 14px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
